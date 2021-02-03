@@ -10,7 +10,7 @@ PYTEST_ARGS = ["-vv"] + dict(
         "--cov-report",
         "term-missing:skip-covered",
         "--cov-fail-under",
-        "92",
+        "91",
     ],
     # too slow for realtime tests
     Darwin=["-k", "not(test_rt)"],
