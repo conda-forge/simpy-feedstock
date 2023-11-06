@@ -1,4 +1,4 @@
-{% set version = "4.0.2" %}
+{% set version = "4.1.0" %}
 
 package:
   name: simpy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/simpy/simpy-{{ version }}.tar.gz
-  sha256: 6d8adc0229df6b02fb7e26dcd1338703b4f4f63f167a5ac2a7213cb80aba4484
+  sha256: 10eba423374fba31e374edd604c5896d075017b15a1edc56de187dec854e9b44
 
 build:
   number: 0
