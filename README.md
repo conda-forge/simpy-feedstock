@@ -3,7 +3,7 @@ About simpy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/simpy-feedstock/blob/main/LICENSE.txt)
 
-Home: https://simpy.readthedocs.io
+Home: https://pypi.org/project/simpy
 
 Package license: MIT
 
@@ -11,7 +11,7 @@ Summary: Event discrete, process based simulation for Python.
 
 Development: https://gitlab.com/team-simpy/simpy
 
-Documentation: https://simpy.readthedocs.io
+Documentation: https://simpy.readthedocs.io/
 
 Current build status
 ====================
