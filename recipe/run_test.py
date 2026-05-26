@@ -19,5 +19,5 @@ PYTEST_ARGS = ["-vv"] + dict(
 )[platform.system()]
 
 if __name__ == "__main__":
-    print("Running pytest with", " ".join(PYTEST_ARGS))
+    print("Running pytest with", " ".join(PYTEST_ARGS), flush=True)
     sys.exit(subprocess.call(["pytest", *PYTEST_ARGS], cwd="tests"))
