@@ -40,6 +40,12 @@ tests:
   - files:
       source:
         - tests/
+        - pyproject.toml
+    requirements:
+      run:
+        - coverage
+        - pytest-benchmark
+        - python ${{ python_min }}.*
     script:
       file: run_test.py
 
